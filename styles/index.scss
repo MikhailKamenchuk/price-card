@@ -12,22 +12,20 @@ html {
     font-family: "Montserrat", sans-serif;
     background-color: #141b1c;
     color: #fff;
+    font-size: 15px;
 }
 .page {
     max-width: 1440px;
-    height: 1000px;
-    font-size: 15px;
-    margin: auto;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
 
     & .container {
         display: flex;
+        margin: auto;
 
         & .price-card {
             max-width: 380px;
-            height: 770px;
+            max-height: 770px;
             display: flex;
             flex-direction: column;
             align-items: center;
