@@ -24,7 +24,7 @@ html {
         margin: auto;
 
         & .price-card {
-            max-width: 380px;
+            min-width: 380px;
             height: 770px;
             display: flex;
             flex-direction: column;
