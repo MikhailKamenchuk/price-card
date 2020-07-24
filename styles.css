@@ -145,14 +145,16 @@ html {
   max-width: 1440px;
   height: 1000px;
   font-size: 15px;
-  padding: 115px 132px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .page .container {
   display: flex;
 }
 .page .container .price-card {
-  width: 380px;
+  max-width: 380px;
   height: 770px;
   display: flex;
   flex-direction: column;
