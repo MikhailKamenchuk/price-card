@@ -146,6 +146,7 @@ html {
   max-width: 1440px;
   height: 100vh;
   display: flex;
+  margin: auto;
 }
 .page .container {
   display: flex;
