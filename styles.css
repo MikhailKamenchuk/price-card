@@ -1,3 +1,37 @@
+.price-card {
+  margin: auto;
+  min-width: 380px;
+  max-width: 380px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  border-radius: 6px;
+  margin-right: 18px;
+  overflow: hidden;
+}
+.price-card:last-child {
+  margin-right: 0;
+}
+.price-card__price {
+  padding: 19px 0;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  width: 100%;
+  text-align: center;
+}
+.price-card__price.green {
+  background-color: #5bb189;
+}
+.price-card__price.blue {
+  background-color: #3a6ba5;
+}
+.price-card__price.orange {
+  background-color: #ec632a;
+}
 .price-card__title {
   margin: 33px 0;
   color: #fff;
@@ -40,7 +74,6 @@
   background: #dc3f45;
   transform: rotate(45deg);
 }
-
 .price-card__description {
   font-weight: 300;
   font-size: 15px;
@@ -48,25 +81,6 @@
   padding: 40px 26px;
   text-align: center;
 }
-
-.price-card__price {
-  padding: 19px 0;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  width: 100%;
-  text-align: center;
-}
-.price-card__price.green {
-  background-color: #5bb189;
-}
-.price-card__price.blue {
-  background-color: #3a6ba5;
-}
-.price-card__price.orange {
-  background-color: #ec632a;
-}
-
 .price-card__options-list {
   margin: 0;
   padding: 0;
@@ -105,7 +119,6 @@
 .price-card__options-list__item.orange::before {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
 }
-
 .price-card__order-btn {
   margin-top: 39px;
   border-radius: 20px;
@@ -147,26 +160,6 @@ html {
   height: 100vh;
   display: flex;
   margin: auto;
-}
-.page .container {
-  display: flex;
-  margin: auto;
-}
-.page .container .price-card {
-  min-width: 380px;
-  max-width: 380px;
-  height: 770px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #334247;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  border-radius: 6px;
-  margin-right: 18px;
-  overflow: hidden;
-}
-.page .container .price-card:last-child {
-  margin-right: 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
